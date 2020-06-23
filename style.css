@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  font-weight: bold;
+  font-size: 20px;
+  --br-top-left: 0;
+  --br-top-right: 0;
+  --br-bottom-left: 0;
+  --br-bottom-right: 0;
+  --br-all: var(--br-top-left) var(--br-top-right) var(--br-bottom-left)
+    var(--br-bottom-right);
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+}
+
+#rec {
+  width: 200px;
+  height: 200px;
+  background-color: dodgerblue;
+  margin: 2rem;
+  border-radius: var(--br-top-left) var(--br-top-right) var(--br-bottom-left)
+    var(--br-bottom-right);
+}
+h1,
+h2 {
+  width: 70%;
+  font-size: 0.7rem;
+  color: cadetblue;
+}
+.form-group {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
