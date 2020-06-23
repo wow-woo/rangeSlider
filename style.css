@@ -9,8 +9,8 @@
   --br-top-right: 0;
   --br-bottom-left: 0;
   --br-bottom-right: 0;
-  --br-all: var(--br-top-left) var(--br-top-right) var(--br-bottom-left)
-    var(--br-bottom-right);
+  --br-all: var(--br-top-left) var(--br-top-right) var(--br-bottom-right)
+    var(--br-bottom-left);
 }
 body {
   min-height: 100vh;
