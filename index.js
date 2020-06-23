@@ -4,7 +4,6 @@ const sliderTR = document.querySelector("#slider-top-right");
 const sliderBL = document.querySelector("#slider-bottom-left");
 const sliderBR = document.querySelector("#slider-bottom-right");
 const root = document.documentElement;
-const rec = document.querySelector("#rec");
 
 sliderAll.addEventListener("input", (e) => {
   root.style.setProperty("--br-top-left", e.target.value + "%");
